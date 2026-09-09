@@ -1,0 +1,985 @@
+.hero {
+    width: 99%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transition:all 2s ease;
+    border-radius: 10px;
+    margin-left: 6px;
+    margin-top: 10px;
+    background: linear-gradient(135deg, #0b0d19, #03071d)
+}
+
+.hero:hover{
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #0b0d19, #03071d);
+}
+
+.child11{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.child12{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.child13{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-left: 20px;
+}
+
+.child15{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+    color: white;
+    background: linear-gradient(15deg, rgb(6, 104, 143), rgb(6, 83, 146));
+    transition:all 0.8s ease;
+}
+
+.child15:hover{
+    filter: brightness(1.2);
+    transform: translateY(2px);
+    background: linear-gradient(15deg, rgb(11, 78, 141), rgb(7, 74, 150));
+    box-shadow: 4px 4px 4px rgb(124, 161, 204);
+}
+
+.parent14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.children1{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: 900;
+    color: white;
+    border: 2px solid white;
+    background-color: rgb(13, 109, 165);
+    transition:all 0.8s ease;
+}
+
+.children1:hover{
+    filter: brightness(1.2);
+    transform: translateY(2px);
+    box-shadow: 2px 2px 2px rgb(135, 170, 209);
+}
+
+.children2{
+    width: 450px;
+    height: 350px;
+    transition:all 0.3s ease;
+    padding-right: 40px;
+}
+
+.children2:hover{
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, blue, purple);
+    transition: all 0.3s ease;
+}
+
+body:hover{
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+
+nav{
+    width: 99%; 
+    height: 80px;
+    background: linear-gradient(135deg, rgb(11, 1, 70), rgb(74, 1, 92));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 6px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+nav:hover{
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(74, 1, 92), rgb(11, 1, 70));
+    border: 2px solid rgb(2, 2, 51);
+}
+
+.box1 {
+    width: 80px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.box1:hover {
+    box-shadow: 4px 6px 5px rgb(178, 178, 226);
+}
+
+.box2 {
+    width: 100px;
+    height: 37px;
+    background-color: rgb(19, 1, 121);
+    color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 4px 5px 5px;
+    background: linear-gradient(135deg, rgb(2, 26, 80), rgb(104, 48, 2));
+    transition: all 0.3s ease;
+}
+
+.box2:hover {
+   outline: none;
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(54, 1, 38), rgb(104, 2, 95));
+}
+
+input{
+    width: 300px;
+    height: 37px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, rgb(119, 2, 2), rgb(1, 83, 59));
+}
+
+input:hover, input:focus {
+    outline: none;
+    border: none; 
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(64, 4, 104), rgb(104, 2, 95));
+}
+
+
+header {
+    width: 98%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient(135deg,  #0b0d19, #03071d);
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 8px;
+    transition: all 0.3s ease;
+}
+
+header:hover {
+    cursor: help;
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #03071d, #0b0d19);
+}
+
+.container0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 40px;
+}
+
+h1{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    transition: all 0.8s ease;
+    padding-left: 20px;
+}
+
+h1:hover{
+    text-shadow: 4px 5px 5px rgb(128, 131, 236);
+    backdrop-filter: blur(1.2);
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.child1{
+    width:400px;
+    height: 400px;
+    padding-right: 40px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.child1:hover{
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.card1 {
+    width: 300px;
+    height: 450px;
+    border: 2px solid rgb(20, 3, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    font-family: verdana;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(68, 11, 133), rgb(9, 1, 78));
+    transition: all 0.3s ease;
+}
+
+.card1:hover{
+    box-shadow: 4px 10px 5px rgb(177, 168, 230);
+    background: linear-gradient(135deg, rgb(12, 1, 107), rgb(57, 2, 119));
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.box6 {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 4px;
+    transition: all 0.3s ease;
+}
+
+.box6{
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.box7 {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(4, 4, 119);
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    background: linear-gradient(135deg, blue, blue);
+    transition: all 0.3s ease;
+}
+
+.box7:hover {
+    box-shadow: 4px 6px 5px rgb(178, 178, 226);
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, blue, blue);
+}
+
+.box8 {
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, blue, blue);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: verdana;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+.card2{
+    width: 300px;
+    height: 450px;
+    border: 2px solid rgb(20, 3, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    font-family: verdana;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(68, 11, 133), rgb(9, 1, 78));
+    transition: all 0.3s ease;
+}
+
+.card2:hover{
+    box-shadow: 4px 10px 5px rgb(177, 168, 230);
+    outline: none;
+    border: 2px solid rgb(1, 1, 71); 
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(9, 1, 78), rgb(68, 11, 133));
+}
+
+.box9 {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 4px;
+    transition: all 0.3s ease;
+}
+
+.box9{
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.box12 {
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, black, black);
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.box12:hover {
+    box-shadow: 4px 6px 5px rgb(178, 178, 226);
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, black, black);
+}
+
+.box13 {
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, black, black);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: verdana;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.card3{
+    width: 300px;
+    height: 450px;
+    border: 2px solid rgb(20, 3, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    font-family: verdana;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(68, 11, 133), rgb(9, 1, 78));
+    transition: all 0.3s ease;
+}
+
+.card3:hover{
+    box-shadow: 4px 10px 5px rgb(177, 168, 230);
+    outline: none;
+    border: 2px solid rgb(1, 1, 71); 
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(9, 1, 78), rgb(68, 11, 133));
+}
+
+.box14 {
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 4px;
+    transition: all 0.3s ease;
+}
+
+.box14{
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.box17 {
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, purple, purple);
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.box17:hover {
+    box-shadow: 4px 6px 5px rgb(178, 178, 226);
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, purple, purple);
+}
+
+.box18 {
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, purple, purple);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: verdana;
+    text-decoration: none;
+    color: white;
+}
+
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.card4{
+     width: 300px;
+    height: 450px;
+    border: 2px solid rgb(20, 3, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    font-family: verdana;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(68, 11, 133), rgb(9, 1, 78));
+    transition: all 0.3s ease;
+}
+
+.card4:hover{
+    box-shadow: 4px 10px 5px rgb(177, 168, 230);
+    outline: none;
+    border: 2px solid rgb(1, 1, 71); 
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(9, 1, 78), rgb(68, 11, 133));
+}
+
+.box19{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 4px;
+    transition: all 0.3s ease;
+}
+
+.box19:hover{
+     filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.box20{
+     width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, blue, blue);
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.box20:hover {
+    box-shadow: 4px 6px 5px rgb(178, 178, 226);
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, blue, blue);
+}
+
+.box21{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, blue, blue);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: verdana;
+    text-decoration: none;
+    color: white;
+}
+
+
+.card5{
+     width: 300px;
+    height: 450px;
+    border: 2px solid rgb(20, 3, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    font-family: verdana;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(68, 11, 133), rgb(9, 1, 78));
+    transition: all 0.3s ease;
+}
+
+.card5:hover{
+    box-shadow: 4px 10px 5px rgb(177, 168, 230);
+    outline: none;
+    border: 2px solid rgb(1, 1, 71); 
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(9, 1, 78), rgb(68, 11, 133));
+}
+
+.box22{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 4px;
+    transition: all 0.3s ease;
+}
+
+.box22:hover{
+     filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.box23{
+     width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, black, black);
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.box23:hover {
+    box-shadow: 4px 6px 5px rgb(178, 178, 226);
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, black, black);
+}
+
+.box24{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, black, black);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: verdana;
+    text-decoration: none;
+    color: white;
+}
+
+.card6{
+    width: 300px;
+    height: 450px;
+    border: 2px solid rgb(20, 3, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    font-family: verdana;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(68, 11, 133), rgb(9, 1, 78));
+    transition: all 0.3s ease;
+}
+
+.card6:hover{
+    box-shadow: 4px 10px 5px rgb(177, 168, 230);
+    outline: none;
+    border: 2px solid rgb(1, 1, 71); 
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(9, 1, 78), rgb(68, 11, 133));
+}
+
+.box25{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 4px;
+    transition: all 0.3s ease;
+}
+
+.box25:hover{
+     filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.box26{
+     width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, purple, purple);
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.box26:hover {
+    box-shadow: 4px 6px 5px rgb(178, 178, 226);
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, purple, purple);
+}
+
+.box27{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, purple, purple);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: verdana;
+    text-decoration: none;
+    color: white;
+}
+
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.card7{
+    width: 300px;
+    height: 450px;
+    border: 2px solid rgb(20, 3, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    font-family: verdana;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(68, 11, 133), rgb(9, 1, 78));
+    transition: all 0.3s ease;
+}
+
+.card7:hover{
+    box-shadow: 4px 10px 5px rgb(177, 168, 230);
+    outline: none;
+    border: 2px solid rgb(1, 1, 71); 
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(9, 1, 78), rgb(68, 11, 133));
+}
+
+.box28{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 4px;
+    transition: all 0.3s ease;
+}
+
+.box28:hover{
+     filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.box29{
+     width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, blue, blue);
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.box29:hover {
+    box-shadow: 4px 6px 5px rgb(178, 178, 226);
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, blue, blue);
+}
+
+.box30{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, blue, blue);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: verdana;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.card8{
+    width: 300px;
+    height: 450px;
+    border: 2px solid rgb(20, 3, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    font-family: verdana;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(68, 11, 133), rgb(9, 1, 78));
+    transition: all 0.3s ease;
+}
+
+.card8:hover{
+    box-shadow: 4px 10px 5px rgb(177, 168, 230);
+    outline: none;
+    border: 2px solid rgb(1, 1, 71); 
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(9, 1, 78), rgb(68, 11, 133));
+}
+
+.box31{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 4px;
+    transition: all 0.3s ease;
+}
+
+.box31:hover{
+     filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.box32{
+     width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, black, black);
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.box32:hover {
+    box-shadow: 4px 6px 5px rgb(178, 178, 226);
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, black, black);
+}
+
+.box33{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, black, black);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: verdana;
+    text-decoration: none;
+    color: white;
+}
+
+.card9{
+    width: 300px;
+    height: 450px;
+    border: 2px solid rgb(20, 3, 119);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    flex-direction: column;
+    font-family: verdana;
+    border-radius: 10px;
+    text-align: center;
+    background: linear-gradient(135deg, rgb(68, 11, 133), rgb(9, 1, 78));
+    transition: all 0.3s ease;
+}
+
+.card9:hover{
+    box-shadow: 4px 10px 5px rgb(177, 168, 230);
+    outline: none;
+    border: 2px solid rgb(1, 1, 71); 
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(9, 1, 78), rgb(68, 11, 133));
+}
+
+.box34{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 4px;
+    transition: all 0.3s ease;
+}
+
+.box34:hover{
+     filter: brightness(1.2);
+    transform: translateY(-2px);
+}
+
+.box35{
+     width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, purple, purple);
+    border: none;
+    border-radius: 5px;
+    font-weight: 900;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.box35:hover {
+    box-shadow: 4px 6px 5px rgb(178, 178, 226);
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, purple, purple);
+}
+
+.box36{
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(135deg, purple, purple);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: verdana;
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(135deg, #0b0d19, #03071d);
+    margin-top: 148px;
+    border-radius: 30px 30px 0px 0px;
+    transition: all 0.3s ease;
+}
+
+footer:hover{
+     filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, #0b0d19, #03071d);
+}
+
+.box37{
+    width: 110px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.box37:hover {
+    box-shadow: 4px 6px 5px rgb(178, 178, 226);
+}
+
+.box38{
+    width: 300px;
+    height: 37px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, rgb(2, 2, 90), rgb(66, 66, 202));
+}
+
+.box38:hover, input:focus {
+    outline: none;
+    border: 2px solid rgb(4, 4, 88); 
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(2, 55, 90), rgb(4, 115, 167));
+}
+
+.box39{
+    width: 300px;
+    height: 37px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease;
+    background: linear-gradient(135deg, rgb(2, 2, 90), rgb(66, 66, 202));
+}
+
+.box39:hover, input:focus {
+    outline: none;
+    border: 2px solid rgb(4, 4, 88); 
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(2, 55, 90), rgb(4, 115, 167));
+}
+
+.box40{
+    width: 300px;
+    height: 37px;
+    background-color: rgb(19, 1, 121);
+    color: rgb(255, 255, 255);
+    border:none;
+    border-radius: 4px 5px 5px;
+    background: linear-gradient(135deg, rgb(1, 71, 16), rgb(13, 190, 66));
+    transition: all 0.3s ease;
+}
+
+.box40:hover{
+   outline: none;
+    filter: brightness(1.2);
+    transform: translateY(-2px);
+    background: linear-gradient(135deg, rgb(13, 190, 66), rgb(1, 71, 16));
+}
+
+.card10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.child00{
+    width: 70%;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-top: 40px;
+    background-color: #090c1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
